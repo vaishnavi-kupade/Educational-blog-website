@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link href="web_wonders.css" rel="stylesheet" >
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="web_wonders.html"><img src="imgs/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="web_wonders.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest Network</h1>
+                <p style="color:black;font-size:18px">
+                    Welcome to the world of SEED Infotech where we believe that Information, Knowledge and Insights can help 
+                    you to see and achieve Beyond the Obvious. Incorporated in 1994, SEED Infotech is India’s one of the leading
+                    solution providers in Information Technology Training, Staffing and Products & Tools Consulting services to both
+                    Retail ( i.e. students, professionals and individuals) and Corporate customers. With our headquarters in Pune, one of 
+                    the IT hubs of India, our activities are spread over many locations in the state of Maharashtra and other IT Metros in
+                    India like Bangalore, New Delhi, Chennai etc.<br /><br />
+                    We are an ISO 9001:2015 certified organization that operates through well-defined systems and procedures. A formidable team 
+                    of over 600 qualified professionals, 48+ training locations in India, and strong associations with Global Technology Leaders
+                    such as Microsoft, Oracle, RedHat, Salesforce, SAP, HP, Hortonworks, Peoplecert and EC-Council and testing & assessment services
+                    through Prometric, Pearson-Vue, Kryterion, etc. are undoubtedly our core strengths.
+                </p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+            <div class="about-col">
+                <img src="imgs/about.jpg" />
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p style="color: black; font-size: 18px ;padding:30px 60px;">
+            Welcome to the world of SEED Infotech where we believe that Information, Knowledge and Insights can help you to see and achieve Beyond the Obvious. Incorporated in 1994, SEED Infotech is India’s one of the leading solution providers in Information Technology Training, Staffing and Products & Tools Consulting services to both Retail ( i.e. students, professionals and individuals) and Corporate customers. With our headquarters in Pune, one of the IT hubs of India, our activities are spread over many locations in the state of Maharashtra and other IT Metros in India like Bangalore, New Delhi, Chennai etc.<br />
+            <br />
+            We are an ISO 9001:2015 certified organization that operates through well-defined systems and procedures. A formidable team of over 600 qualified professionals, 48+ training locations in India, and strong associations with Global Technology Leaders such as Microsoft, Oracle, RedHat, Salesforce, SAP, HP, Hortonworks, Peoplecert and EC-Council and testing & assessment services through Prometric, Pearson-Vue, Kryterion, etc. are undoubtedly our core strengths.
+        </p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+    </section>
+    
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

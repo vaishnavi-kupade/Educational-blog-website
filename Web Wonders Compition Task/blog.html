@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link href="web_wonders.css" rel="stylesheet" >
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="web_wonders.html"><img src="imgs/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="web_wonders.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+        <h1>Our Certificates & Online Programs</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="imgs/certificate.jpg" />
+                <h2>Our Certificates & Online Programs</h2>
+                <p style="font-size:18px;color:black">
+                    As a vast country with a significant population, India's biggest problem today is the competitive spirit among its citizens for exams. There is competition everywhere in India - be it jobs, schools or higher education. Moreover, in the education sector, competition is neck-to-neck. Most of the students are going for a Government job and preparing hard for competitive exams. The reason being the better career opportunities that can lead to a better, more stable lifestyle.
+                    To find the best career, candidates have to choose a competitive exam for a Government job or future study. Candidates select future studies after 12th or after graduation and opt to go for Government jobs. There are many competitive exams in India, so it is normal for candidates to have a little bit of confusion when it comes to choosing the right exam. Our best advice? Before applying for the competitive exam, make sure you meet all the criteria for eligibility.
+                </p>
+                <br />
+                <p style="font-size:18px;color:black">
+                    A test or examination (informally, exam or evaluation) is an educational assessment intended to measure a test-taker's knowledge, skill, aptitude, physical fitness, or classification in many other topics (e.g., beliefs). A test may be administered verbally, on paper, on a computer, or in a predetermined area that requires a test taker to demonstrate or perform a set of skills.
+                    Tests vary in style, rigor and requirements. There is no general consensus or invariable standard for test formats and difficulty. Often, the format and difficulty of the test is dependent upon the educational philosophy of the instructor, subject matter, class size, policy of the educational institution, and requirements of accreditation or governing bodies.
+                </p>
+                <br />
+                <p style="font-size:18px;color:black">
+                    A test may be administered formally or informally. An example of an informal test is a reading test administered by a parent to a child. A formal test might be a final examination administered by a teacher in a classroom or an IQ test administered by a psychologist in a clinic. Formal testing often results in a grade or a test score. A test score may be interpreted with regards to a norm or criterion, or occasionally both. The norm may be established independently, or by statistical analysis of a large number of participants.
+                    A test may be developed and administered by an instructor, a clinician, a governing body, or a test provider. In some instances, the developer of the test may not be directly responsible for its administration. For example, Educational Testing Service (ETS), a nonprofit educational testing and assessment organization, develops standardized tests such as the SAT but may not directly be involved in the administration or proctoring of these tests.
+                </p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name" />
+                        <input type="email" placeholder="Enter Email" />
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Catagories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Oracle</span>
+                    <span>39</span>
+                </div>
+                <div>
+                    <span>JEEE</span>
+                    <span>12</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+    </section>
+    
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
